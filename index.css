@@ -1,0 +1,609 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #130125, #130125),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    scroll-behavior: smooth ;
+    overflow-y: scroll;
+    
+  }
+  body{
+    margin-left: 3%;
+  }
+
+
+.header{
+    display: flex;
+    margin-left: 3%;
+    color: aliceblue;
+}
+.pr_head{
+    font-size: 60px;
+}
+.hi{
+    font-size: 60px;
+}
+.softdev{
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    margin-left: 40%;
+    gap: 10%;
+    width: 30%;
+    
+}
+.but{
+    height: 30%;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration-line: none;
+    margin-top: 5%;
+    /* transition: width 3s, height 3s; */
+    display: flex;
+    align-items: center;
+    justify-content: center 
+    
+}
+.but:hover{
+    height: 50%;
+    width: 45%;
+    background-color: aliceblue;
+    color: black;
+    text-align: end;
+    border-radius: 50px;
+    
+}
+
+
+.welcome{
+    margin-left: 3%;
+    color: aliceblue;
+    margin-top: 10%;
+    border-bottom: 1px solid salmon;
+    width: 90%;
+}
+
+.cv_but{
+    margin-top: 4%;
+    width: 15%;
+    height: 40px;
+    background-color: rgb(255, 123, 0);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 90%;
+    border-radius: 50px;
+    margin-bottom: 10%;
+}
+.cv_but:hover{
+    background-color:crimson;
+    color: black;
+}
+
+.about{
+    margin-left: 3%;
+    color: aliceblue;
+    margin-top: 5%;
+    border-bottom: 1px solid salmon;
+    width: 90%;
+}
+.about_big{
+    font-size: 60px;
+}
+.info{
+    font-size: 20px;
+}
+
+.list{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.exp_big_text{
+    font-size: 60px;
+}
+.year{
+    font-size: 20px;
+}
+.location{
+    font-size: 15px;
+}
+.div_img{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.img_me{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;   
+}
+.stack{
+   font-size: 30px; 
+   font-weight: 700; 
+}
+.container{
+    /* border: 1px solid black; */
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+.cat{
+    background-color: gray;
+    height: 35%;
+    width: 23%;
+    border-radius: 0 80px 80px 0;
+    position: absolute;
+    bottom: 30%;
+        /* 60px; */
+    right: 15%;
+        /* 50px; */
+}
+.ear{
+    height: 30%;
+    width: 24%;
+    background-color: grey;
+    position: absolute;
+    bottom: 95%;
+    left: 7%;
+    border-radius: 20px 0 0 0;
+    box-shadow: 25px 0 gray;
+}
+.eye,
+.eye:before{
+    height: 6px;
+    width: 9px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+    border-top: none;
+}
+.eye{
+    top: 18px;
+    left: 10px;
+}
+.eye:before{
+    content: "";
+    left: 30px;
+}
+.nose{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    box-shadow: 10px 0 white;
+}
+.nose:before{
+    content: "";
+    width: 10px;
+    height: 3px;
+    position: absolute;
+    background-color: white;
+    left: 4px;
+}
+.nose:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    background-color: white;
+    left: 6px;
+    bottom: 2.7px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid grey;
+}
+.mouth{
+    background-color: black;
+    height: 10px;
+    width: 14px;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    top:38px;
+    left: 23px;
+    animation: mouth-move 2s infinite;
+    transform-origin: top;
+}
+@keyframes mouth-move{
+    50%{
+        transform: scaleY(0.7);
+    }
+}
+.body{
+    background-color: grey;
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    right: 62px;
+    bottom: 0;
+    border-radius: 50px 50px 0 0;
+    animation: sleep 2s infinite;
+    transform-origin: bottom right;
+}
+@keyframes sleep{
+    50%{
+        transform: scale(0.9, 1.05);
+    }
+}
+.tail{
+    background-color: grey;
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+    border-radius: 20px 0 0 20px;
+}
+.body::before{
+    content:"";
+    position: absolute;
+    background-color: white;
+    height: 12px;
+    width: 30px;
+    border-radius: 6px;
+    bottom: 0;
+    left: 22px;
+    box-shadow: 45px 0 white;
+}
+.exp{
+    margin-left: 3%;
+    margin-top: 5%;
+    color: aliceblue;
+    border-bottom: 1px solid salmon;
+    width: 90%;
+}
+.list_exp{
+    font-size: 20px;
+    
+}
+
+.proj{
+    margin-left: 3%;
+    color: aliceblue;
+    margin-top: 5%;
+    
+    border-bottom: 1px solid salmon;
+    width: 90%;
+}
+.pr_1{
+    font-size: 40px;
+    display: flex;
+    margin-top:5%;
+    margin-right: 10%;
+    
+    
+}
+.air_p{
+    margin-left: 20%; 
+    font-weight: 700;
+}
+.air_img{
+    width: 35%;
+    border-radius: 50px;
+    border: ridge 2mm grey;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.air_descr{
+    margin-left: 20%; font-size: 20px;
+}
+.air_descr_cont{
+    margin-left: 20%; font-size: 20px; 
+}
+
+.pr_2{
+    font-size: 40px;
+    display: flex;
+    
+    margin-top:10%;
+}
+
+.p2_topic{
+    margin-left: 15%; 
+    font-weight: 700; 
+    width: 100%;
+}
+.p2_decs{
+    margin-left: 15%; 
+    font-size: 20px;
+    width: 100%;
+}
+.media_img{
+    width: 25%;
+    border-radius: 30px;
+    border: ridge 1mm grey;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+.proj_3{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top:5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.img_3{
+    width: 40%;
+    border-radius: 30px;
+    border: ridge 1mm grey;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-right: 15%;
+}
+.title_todo{
+    margin-left: -20%; font-weight: 700; width: 100%; margin-top: 20%;
+}
+.p3_decs{
+   font-size: 20px;margin-left: -20%;
+}
+
+.say_hell{
+    margin-left: 3%;
+    color: aliceblue;
+    margin-top: 5%;
+}
+.bigHello{
+    font-size: 60px;
+}
+.callme{
+    font-size: 20px;
+}
+ .callme_img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.in_touch{
+    height: 40px;
+    width: 15%;
+    background-color: rgb(255, 123, 0);
+    color: aliceblue;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.in_touch:hover{
+    background-color:crimson;
+    color: black;
+}
+.love{
+    width: 100%;
+}
+.credits{
+    width: 100%;
+}
+
+.fotter{
+    color: aliceblue;
+    margin-left: 3%;
+    display: flex;
+    align-items: end;
+    gap: 25%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: none;
+    }
+    /* body{
+        margin-left: 10%;
+    } */
+    .header{
+        width: 30%;
+        font-size: 70%;
+        color: rgb(151, 18, 45);
+        margin-left: 10%;
+        
+    }
+    .buttons{
+       display: flex;
+       flex-direction: column;
+       margin-left: 170%;
+       margin-top: 10%;
+       font-weight: 500;
+       line-height: 10px;
+    }
+   
+    .welcome{
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    .hi{
+        font-size: 30px;
+        color: darkred;
+        font-weight: 500;
+
+    }
+    .softdev{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .cv_but{
+        margin-top: 10%;
+        margin-left: 30%;
+        width: max-content;
+        background-color: darkred;
+        color: black;
+        font-size: 10px;
+    }
+    .cv_but:hover{
+        background-color: darkred;
+        color: aliceblue;
+    }
+    .about{
+       margin-top: 5%;
+       margin-left: 10%;
+    }
+    .about_big{
+        font-size: 30px;
+        color:darkred;
+        font-weight: 500;
+    }
+    .info{
+        font-size: 15px;
+    }
+    .img_me{
+        width: 30%;
+        height: 30%;
+        margin-top: 5%;
+    }
+
+    .stack{
+        font-size: 25px; 
+        color:darkred;
+        font-weight: 500; 
+        margin-top: -2%;
+     }
+     .list{
+        font-size: 15px;
+        margin-top: -5%;
+     }
+     .exp{
+        margin-left: 10%;
+     }
+     .exp_big_text{
+        font-size: 30px;
+        color:darkred;
+        font-weight: 500;
+    }
+
+    .list_exp{
+        margin-left: -10%;
+        font-size: 15px;
+    }
+    .proj{
+        margin-left: 10%;
+    }
+    .year{
+        font-size: 15px;
+        width: 70%;
+    }
+    .location{
+        font-size: 10px;
+        color:darkred;
+        
+    }
+    .omg{
+        margin-left: -10%;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .pr_head{
+        font-size: 30px;
+        font-weight: 500;
+        color: darkred;
+    }
+    .pr_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .air_img{
+        width: 280px;
+        height: 200px;
+        margin-top: 20%;
+    }
+    .air_p{
+        font-weight: 500;
+        color:crimson;
+        font-size: 25px;
+        margin-top: -90%;
+    }
+    .air_descr{
+        margin-top: 90%;
+        font-size: 15px;
+        width: 110%;
+        margin-left: 5%;
+    }
+    .air_descr_cont{
+        margin-left: 5%;
+        font-size: 15px; 
+    }
+    .pr_2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .p2_topic{
+        font-weight: 500; 
+        width: 100%;
+        color: crimson;
+        font-size: 25px;
+        margin-top: 0%;
+    }
+    .media_img{
+       display: none; 
+    }
+    
+    .p2_decs{
+        font-size: 15px; 
+        margin-left: 5%;
+    }
+    .proj_3{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -5%;
+    }
+    .img_3{
+        width: 280px;
+        height: 200px;
+        margin-top: 5%;
+    }
+    .title_todo{
+        font-size: 25px;
+        font-weight: 500;
+        color: crimson;
+        margin-left: 30%;
+    }
+    .p3_decs{
+        font-size: 15px;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .say_hell{
+        margin-left: 10%;
+    }
+    .bigHello{
+        margin-top: 10%;
+        font-size: 30px;
+        font-weight: 500;
+        color: darkred;
+    }
+    .callme{
+        font-size: 15px;
+        margin-left: 35%;
+    }
+
+    .in_touch{
+        width: fit-content;
+        background-color: darkred;
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 35%;
+        margin-top: -5%;
+    }
+    .fotter{
+        margin-left: 10%;
+    }
+    .love{
+        font-size: 5px;
+        width: 100%;
+        font-weight: 100;
+    }
+    .credits{
+        font-size: 5px;
+        width: 100%;
+        font-weight: 100;
+    }
+}

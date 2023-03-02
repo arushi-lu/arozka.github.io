@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class = "header">
+        <h1>Aruzhan Suleimenova</h1>
+        <div class = 'buttons'>
+            <a class="but" href="#abt" >About</a>
+            <a class="but" href="#exp">Experience</a>
+            <a class="but" href="#prj">Projects</a>
+            <a class="but" href="#hello" >Contacts</a> 
+        </div>
+    </div>
+    
+
+        <div class="welcome">
+                <h1 class="hi" >Hi,  I’m Aruzhan, <br>
+                    I build things for the web. </h1>
+
+                <p class="softdev" >I’m software developer and this is my portfolio.</p>
+
+                <input type="button" class="cv_but" value='Check out my CV' 
+                       onClick="parent.open('cv.pdf')">
+                
+            </div>
+                
+            <div class="about" id="abt">
+                <h1 class="about_big" >About Me</h1>
+                <div class="div_img"> 
+                    
+                        <p class="info" >
+                            I’m a 2-nd year student at NU. &nbsp; Passionate for math, AI and cats.<br><br>
+                            
+                            Currently learning Web-Development and trying to create cool sites.       
+                        </p> 
+                        
+                        <img class="img_me" src="hi.jpg" alt="me">
+                </div>
+                <div class="container">
+                    <div class="cat">
+                        <div class="ear"></div>
+                        <div class="eye"></div>
+                        <div class="mouth"></div>
+                        <div class="nose"></div>
+                        <div class="tail"></div>
+                        <div class="body"></div>
+                    </div>
+
+                </div>
+                
+                <p class="stack" >Stack</p>
+                <ul class="list" >
+                    <li>C, C++, Java</li>
+                    <li>Data Structures & Alghorithms</li>
+                    <li>HTML, CSS, JS, React</li>
+                </ul>
+               
+            </div>
+
+            <div class="exp" id="exp">
+                <h1 class="exp_big_text" >Experience</h1>
+                <ul class="list_exp">
+                    <div style="display: flex; flex-direction: row; gap: 10%; ">
+                        <p class="year" >2019-2020</p>
+                        <li > <p>Participant in KazNU nanosatelite project </p>
+                                <p class="location">Almaty, Kazakhstan</p>
+                                <p class="description"> As a participant studied the structure of nanosattelite, 
+                                    constructed it and <br>deployed to the height of 25 km to collect air condition and radiation data  </p>
+                        </li>
+                    </div>
+                    <div style="display: flex; flex-direction: row; gap:10%">
+                        <p class="year"> 2022-2023</p>
+                        <li class="omg" style="margin-top: 2%;">
+                            Student of nfactorial Web-Development camp
+                            <p class="location">Almaty, Kazakhstan</p>
+                            <p class="description">Studied the HTML, CSS, JavaScript, and React <br>
+                                Implemented several web projects</p>
+                        </li>
+                    </div>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="proj" id="prj">
+                <h1 class="pr_head" >Projects I’ve Worked On</h1>
+
+                <div class="pr_1">
+                    <img class="air_img" src="air.jpg" alt="air">
+                    <div>
+                        <p class="air_p">Airline ticket system</p>
+                        <p class="air_descr" >
+                            The project's functionality includes possibility 
+                            to reserve air tickets choosing the directions from and to, 
+                            airline companies and class of the flight.
+                        </p>
+                        <p class="air_descr_cont" > 
+                            The project uses the following technologies: <br><br>
+                             > Java OOP concepts<br>
+                            > MySQL & JDBC<br>
+                            > Threads 
+                        </p>
+                        
+                    </div>
+
+                </div> 
+                   
+                <div class="pr_2">
+                   
+                    <div class="proj_desc_2">
+                         <p class="p2_topic" >
+                            Media-as-medium
+                        </p>
+                        <p class="p2_decs" >
+                            The project emulates online newsletter, 
+                            where information comes from the database.
+                        </p>
+                        <p class="p2_decs" > 
+                            The project uses the following technologies: <br><br>
+                             > JavaScript<br>
+                             > Fetch API<br>
+                        </p>
+                    </div>
+                    <img class="media_img" src="media.png" alt="img">
+                </div>
+
+                <div class="proj_3">
+                    <img class="img_3" src="todo.png" alt="img_3">
+                    <div>
+                        <p class="title_todo" >
+                            To Do List
+                        </p>
+                        <p class="p3_decs">
+                            The project is written on React. Emulates simple to do list, which can 
+                            add, delete, filter tasks.
+                        </p>
+                        <p class="p3_decs"> 
+                            The project uses the following technologies: <br><br>
+                             > React JS<br>
+                             > Props and Hooks<br>
+                        </p>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+
+    
+
+    <div class="say_hell" id="hello">
+        <h1 class="bigHello">Say Hello</h1>
+        <p class="callme">Let's stay in touch</p>
+
+        <input type="button" class="in_touch" value='Get in touch with Me' 
+                       onClick="location.href='mailto: suleimenovaaruzhan13@gmail.com'">
+        <img class="callme_img" src="callme.jpg" alt="call_me"/>
+
+        
+    </div>
+
+    <div class="fotter">
+        
+        
+        <h5 class="love"> 
+            Made with ✨❤️ at nFactorial in 2022.
+        </h5>
+        
+        <h5 class="credits">
+            Credits: photos from Unsplash.com, icons from Icons8, 
+            graphics from craftwork.design, font Kanit from fonts.google.
+        </h5>
+    </div>
+
+    
+    
+</body>
+</html>
